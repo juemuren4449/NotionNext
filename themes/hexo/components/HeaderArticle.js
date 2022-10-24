@@ -24,7 +24,7 @@ export default function HeaderArticle({ post, siteInfo }) {
       <header className="animate__slideInDown animate__animated bg-black bg-opacity-70 absolute top-0 w-full h-96 py-10 flex justify-center items-center ">
         <div className='mt-24'>
           {/* 文章Title */}
-          <div className="font-bold text-xl shadow-text flex justify-center text-center text-white dark:text-white ">
+          <div className="font-bold text-4xl pb-4 shadow-text flex justify-center text-center text-white dark:text-white ">
             {post.title}
           </div>
 
@@ -52,13 +52,14 @@ export default function HeaderArticle({ post, siteInfo }) {
                   </Link>
                 </>
               )}
-              <div className="pl-1 mr-2">
+              {/* <div className="pl-1 mr-2">
                 {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedTime}
-              </div>
+              </div> */}
             </div>
+            访问量：
             {BLOG.ANALYTICS_BUSUANZI_ENABLE && <div className="busuanzi_container_page_pv font-light mr-2">
               <span className="mr-2 busuanzi_value_page_pv" />
-              次访问
+              次
             </div>}
           </section>
         </div>

@@ -39,13 +39,13 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
           >
             <a className={'my-1 flex '}>
               <div
-                className="w-20 h-16 bg-cover bg-center bg-no-repeat"
+                className="rounded w-20 h-16 bg-cover bg-center bg-no-repeat"
                 style={{ backgroundImage: headerImage }}
               />
               <div
                 className={
                   (selected ? ' text-indigo-400 ' : 'dark:text-gray-400 ') +
-                  ' text-sm py-1.5 overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded ' +
+                  ' text-sm py-1.5 overflow-x-hidden hover:text-indigo-600 px-2 duration-200 rounded ' +
                   'hover:text-white dark:hover:text-indigo-400 cursor-pointer items-center flex'
                 }
               >
