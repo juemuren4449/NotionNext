@@ -18,7 +18,7 @@ const CommonHead = ({ meta, children }) => {
   return (
     <Head>
       <title>{title}</title>
-      <meta name="theme-color" content={BLOG.BACKGROUND_LIGHT} />
+      <meta name="theme-color" content={BLOG.BACKGROUND_WHITE} />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no"

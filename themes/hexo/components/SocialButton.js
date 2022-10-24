@@ -22,14 +22,14 @@ const SocialButton = () => {
         <i className='transform hover:scale-125 duration-150 fab fa-weibo dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {BLOG.CONTACT_BLOG && <a target='_blank' rel='noreferrer' title={'博客'} href={`mailto:${BLOG.CONTACT_BLOG}`} >
-        <i className='transform hover:scale-125 duration-150 fas fa-blog dark:hover:text-indigo-400 hover:text-indigo-600'/>
-      </a>}
-      {BLOG.CONTACT_EMAIL && <a target='_blank' rel='noreferrer' title={'email'} href={`mailto:${BLOG.CONTACT_EMAIL}`} >
-        <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-indigo-400 hover:text-indigo-600'/>
+        <i className='transform hover:scale-125 duration-150 fas fa-pen-nib dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       <a target='_blank' rel='noreferrer' title={'RSS'} href={'/feed'} >
         <i className='transform hover:scale-125 duration-150 fas fa-rss dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>
+      {BLOG.CONTACT_EMAIL && <a target='_blank' rel='noreferrer' title={'email'} href={`mailto:${BLOG.CONTACT_EMAIL}`} >
+        <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-indigo-400 hover:text-indigo-600'/>
+      </a>}
     </div>
   </div>
 }
