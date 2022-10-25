@@ -101,6 +101,8 @@ const CommonScript = () => {
               }}
       />
     </>)}
+    {/* umami 统计 */}
+    <script async defer data-website-id="db1ede7f-2739-4d5a-9bdf-1789706f1770" src="https://tongji.juemuren4449.com/umami.js"></script>
   </>)
 }
 
