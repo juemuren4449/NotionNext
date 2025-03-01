@@ -59,6 +59,7 @@ const BLOG = {
   CONTACT_GITHUB: '',
   CONTACT_TELEGRAM: '',
   CONTACT_BLOG: 'https://juemuren4449.com',
+  CONTACT_HYM: 'https://haoyangmao.wiki',
   // 鼠标点击烟花特效
   FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 鼠标点击烟花特效
 

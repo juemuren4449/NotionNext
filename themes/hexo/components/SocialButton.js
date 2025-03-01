@@ -21,7 +21,10 @@ const SocialButton = () => {
       {BLOG.CONTACT_WEIBO && <a target='_blank' rel='noreferrer' title={'weibo'} href={BLOG.CONTACT_WEIBO} >
         <i className='transform hover:scale-125 duration-150 fab fa-weibo dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_BLOG && <a target='_blank' rel='noreferrer' title={'博客'} href={`mailto:${BLOG.CONTACT_BLOG}`} >
+      {BLOG.CONTACT_HYM && <a target='_blank' rel='noreferrer' title={'薅羊毛'} href={BLOG.CONTACT_HYM} >
+        <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-indigo-400 hover:text-indigo-600'/>
+      </a>}
+      {BLOG.CONTACT_BLOG && <a target='_blank' rel='noreferrer' title={'博客'} href={BLOG.CONTACT_BLOG} >
         <i className='transform hover:scale-125 duration-150 fas fa-pen-nib dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       <a target='_blank' rel='noreferrer' title={'RSS'} href={'/feed'} >
